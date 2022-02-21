@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-21T21:17:52.486Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Driver user",
+        "description": "",
+        "id": "account-type;driver-user",
+        "after": [
+          {
+            "result": {
+              "duration": 709130400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4277893800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user logged in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.theUserLoggedInAsA(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7904492900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user navigates to \"Activities\" \"Calendar Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_navigates_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5025917800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The title contains \"Activities\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinition.theTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Account Type",
+    "description": "",
+    "id": "account-type",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Account.feature",
+    "tags": []
+  }
+]
