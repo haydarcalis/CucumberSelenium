@@ -5,7 +5,7 @@ import io.cucumber.java.en.*;
 public class NavigationStepMenuDefs {
     @When("The user navigates to Fleet,Vehicles")
     public void the_user_navigates_to_Fleet_Vehicles() {
-//selenium kodları yazılır
+
         System.out.println("The user navigates to Fleet,Vehicles");
     }
 
